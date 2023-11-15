@@ -9,6 +9,7 @@ git push -u origin main(次からはgit pushだけでOK!)
 
 1. Launch pad から keychain を起動する。  
 2. github.com を検索する。
+3. git diff main origin/main
 
 どうも、パスワードのダイアローグに「常に許可する」を単にクリックすれば良かったのかも？
 
