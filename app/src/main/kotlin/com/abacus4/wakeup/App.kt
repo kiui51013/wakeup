@@ -8,7 +8,7 @@ import java.util.*
 
 class App {
     private val df = SimpleDateFormat("Gy年M月d日(E) H時m分s秒", Locale("ja", "JP", "JP"))
-
+    var args:Array<String>? = null
     val greeting: String
     get() {
       return "Hello World! -- ${df.format(Date())}"
@@ -16,6 +16,8 @@ class App {
 }
 
 fun main(args: Array<String>) {
-  println(App().greeting)
+  val app = App()
+  println(app.greeting)
+  app.args = args
   println("いつまでも愛しています…" + args.joinToString(", ", "[", "]"))
 }
