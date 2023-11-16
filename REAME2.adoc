@@ -31,3 +31,6 @@ remote.origin.url=https://github.com/kiui51013/wakeup.git
 . line .. 3
 
 https://www.google.com[Google Home]
+
+取り敢えずはこんなものとしておきましょう。
+
