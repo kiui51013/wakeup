@@ -1,0 +1,33 @@
+= Document Title
+
+== Section #1
+
+=== *_GitHub_* についての *覚書*
+*_github_* についてやっていますが +
+どうも *納得* できない！
+
+* git config --list
+====
+----
+credential.helper=osxkeychain
+user.name=kiui51013
+user.email=kiui51013@gmail.com
+gitignore_global
+core.autocrlf=input
+core.safecrlf=warn
+difftool.sourcetree.cmd=opendiff "$LOCAL" "$REMOTE"
+difftool.sourcetree.path=
+mergetool.sourcetree.cmd=/Users/honda/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh "$LOCAL" "$REMOTE" -ancestor "$BASE" -merge "$MERGED"
+mergetool.sourcetree.trustexitcode=true
+color.ui=true
+remote.origin.url=https://github.com/kiui51013/wakeup.git
+----
+====
+* git config --global user.name Yamada
+* git config --global user.email yamada123@gmail.com
+* git config --global remote.origin.url https://github.com/kiui51013/wakeup.git
+. line .. 1 cat > /User/home
+. line .. 2
+. line .. 3
+
+https://www.google.com[Google Home]
