@@ -1,0 +1,85 @@
+$ git push -u origin main
+To https://github.com/kiui51013/wakeup.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/kiui51013/wakeup.git'
+
+Updates were rejected because the remote contains work that you do not
+have locally. This is usually caused by another repository pushing to
+the same ref. If you want to integrate the remote changes, use
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'git pull' before pushing again.
+ See the 'Note about fast-forwards' in 'git push --help' for details.
+🧨 1<gold@honda>~/work/asciidoc
+$ git fetch origin
+remote: Enumerating objects: 90, done.
+remote: Counting objects: 100% (90/90), done.
+remote: Compressing objects: 100% (50/50), done.
+remote: Total 90 (delta 14), reused 84 (delta 8), pack-reused 0
+Unpacking objects: 100% (90/90), 70.77 KiB | 832.00 KiB/s, done.
+From https://github.com/kiui51013/wakeup
+ * branch            HEAD       -> FETCH_HEAD
+🍺 <gold@honda>~/work/asciidoc
+
+$ git push -u origin main
+To https://github.com/kiui51013/wakeup.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/kiui51013/wakeup.git'
+hint:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Updates were rejected because the tip of your current branch is behind
+its remote counterpart. If you want to integrate the remote changes,
+use 'git pull' before pushing again.
+See the 'Note about fast-forwards' in 'git push --help' for details
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+🧨 1<gold@honda>~/work/asciidoc
+
+🍺 <gold@honda>~/work/asciidoc
+$ git pull origin
+From https://github.com/kiui51013/wakeup
+ * branch            HEAD       -> FETCH_HEAD
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+🧨 128<gold@honda>~/work/asciidoc
+$ git config pull.rebase true
+🍺 <gold@honda>~/work/asciidoc
+$ ls
+REAME2.adoc
+🍺 <gold@honda>~/work/asciidoc
+$ git pull origin
+From https://github.com/kiui51013/wakeup
+ * branch            HEAD       -> FETCH_HEAD
+Successfully rebased and updated refs/heads/main.
+🍺 <gold@honda>~/work/asciidoc
+$ git push -u origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.24 KiB | 1.24 MiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To https://github.com/kiui51013/wakeup.git
+   e09bd01..df0ebe2  main -> main
+branch 'main' set up to track 'origin/main'.
+🍺 <gold@honda>~/work/asciidoc
+$
+
+
+1111111111111111
+2222@@@@@@@@@222
+3333@@@@@@@@@333
+4444444444444444
+@@@@@@@@
+@@@@@@@@
+@@@@@@@@@
+@@@@@@@@@
