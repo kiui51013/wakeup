@@ -20,4 +20,5 @@ fun main(args: Array<String>) {
   println(app.greeting)
   app.args = args
   println("いつまでも愛しています…" + args.joinToString(", ", "[", "]"))
+  println("Kotlin Version: ${KotlinVersion.CURRENT} Java Version: ${System.getProperty("java.version")}")
 }
