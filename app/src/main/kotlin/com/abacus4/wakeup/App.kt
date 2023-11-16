@@ -21,4 +21,9 @@ fun main(args: Array<String>) {
   app.args = args
   println("いつまでも愛しています…" + args.joinToString(", ", "[", "]"))
   println("Kotlin Version: ${KotlinVersion.CURRENT} Java Version: ${System.getProperty("java.version")}")
+  val props = System.getProperties()
+  for (e in props!!.keys.toList().stream().sorted()) {
+    println("$e -> ${System.getProperty(e.toString())}")
+  }
+
 }
