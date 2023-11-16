@@ -57,3 +57,7 @@ branch 'main' set up to track 'origin/main'.
 $
 
 toyo8603 not available ....... 11/16 2023
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+どうも分からんね、toyo8603 が全く使用できない！
