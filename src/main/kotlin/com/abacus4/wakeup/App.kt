@@ -26,5 +26,10 @@ fun main(args: Array<String>) {
     println("$e -> ${System.getProperty(e.toString())}")
   }
   println("JavaのList.forEach(voidを返すLambda式)")
+  val keys = props!!.keys.map { e -> e.toString() }
+  println(keys.sorted())
+  val list = listOf(1,3,10,8,20,9)
+  println(list.sorted())
+
 
 }
