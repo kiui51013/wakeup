@@ -1,0 +1,163 @@
+commit 9f413489bd1e92582a97373e707931e0f73ce6a3
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 21:05:35 2023 +0900
+
+    AppKt をちょっと変えた。
+
+commit 8ede934edba769a20de4e2ee1fe9132edcfda0c5
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 20:50:26 2023 +0900
+
+    AppKt に少し追加。
+
+commit 97037e5a64abd0caf1cc64f068d047f5a6a2b775
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 20:49:16 2023 +0900
+
+    AppKt に少し追加。
+
+commit 8baa95e4f244116f4ff7143e584a78f59970844d
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 20:44:48 2023 +0900
+
+    AppKt に少し追加。
+
+commit 36918fb02a0985d25a44acbf7b8c55e5a50a4ef1
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 20:21:27 2023 +0900
+
+    log.txt 2nd changed.
+
+commit 09aa2dc42b80632dec0ef02c6fa30932683f21b6
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 20:19:52 2023 +0900
+
+    log.txt some changed.
+
+commit 97667fb56a25a7e6abc397eea7513a654ed30b15
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 12:19:51 2023 +0900
+
+    log.txt changed.
+
+commit 55e0e73d11b309e3d3c4aafb432528f74a29d25e
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 12:17:55 2023 +0900
+
+    log.txt added.
+
+commit df0ebe20184fe8a0883776685e6fcc617941871e
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 10:17:51 2023 +0900
+
+    v2.1 commit
+
+commit 4f725426cd62f1ae1e41af905ce990ee8d8a5e28
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 10:17:02 2023 +0900
+
+    2nd commit
+
+commit ff6202876759885ad99bd4bbc99d28f2e5b29714
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 10:11:32 2023 +0900
+
+    first commit
+
+commit e09bd019085180b24c91b646c5255aa387a20c05
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 00:31:33 2023 +0900
+
+    line 6
+
+commit 559de57bb29e7720fcf760d4d3e1140f785abfb8
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 00:30:57 2023 +0900
+
+    line 5
+
+commit 5b10ab9fb34b51b6d98403df55371b7a2f27ed8c
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 00:25:43 2023 +0900
+
+    line 4
+
+commit bb1c4d55fbb98caf8d83aac769fe30b2b10db291
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 00:25:06 2023 +0900
+
+    line3
+
+commit a374e65dbec9333d2115bba44a0268c08eafed76
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Thu Nov 16 00:18:45 2023 +0900
+
+    first
+
+commit 146825e19ac806062bbfcb21969e805b14a5d0e8
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Wed Nov 15 21:34:22 2023 +0900
+
+    READMEの最後に1行追加しただけです。
+
+commit 2b50cb6807db7422069ac27deb62cc0e5bfb4509
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Wed Nov 15 21:14:17 2023 +0900
+
+    this is created by git init.
+    directory structure no modified.
+
+commit 634f31603e07956c9c117284fb01023700466a97
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Wed Nov 15 21:12:54 2023 +0900
+
+    this is created by git init.
+    directory structure no modified.
+
+commit 4184e2559c59daa1ff58c22cc2513628b54d3c26
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Wed Nov 15 17:20:20 2023 +0900
+
+    last line appended.
+
+commit ce5ff8479c6d8adb439333f3d507bb577209ea0d
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Wed Nov 15 16:58:34 2023 +0900
+
+    git push -u ...
+
+commit ba177433b80199b2723c7053f24909535bbd692d
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Wed Nov 15 16:26:25 2023 +0900
+
+    ...
+
+commit 3fcc1e7f80608a5f36dcf5c0400a43dcd244f7bc
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Wed Nov 15 16:22:19 2023 +0900
+
+    key chain app.
+
+commit fd9250453c5cf2dc390edd5b83e55adbb64acb7a
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Wed Nov 15 16:00:38 2023 +0900
+
+    appended two spaces to README.md.
+
+commit 8fe635e2c27ebadf326da5feeb004bf88a176713
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Wed Nov 15 15:47:10 2023 +0900
+
+    EOF sequence changed.
+
+commit 77ba907fd2e1ebf5eff6cbcb8b1f752a10d3f077
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Wed Nov 15 15:39:54 2023 +0900
+
+    appended to REAME from the message by github when newly repository(wakeup.git) created.
+
+commit 5bf4b4f109969b8c7ced0324058500a88a527da4
+Author: kiui51013 <kiui51013@gmail.com>
+Date:   Wed Nov 15 15:32:00 2023 +0900
+
+    first commit

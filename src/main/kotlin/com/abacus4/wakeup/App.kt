@@ -25,5 +25,6 @@ fun main(args: Array<String>) {
   for (e in props!!.keys.toList().stream().sorted()) {
     println("$e -> ${System.getProperty(e.toString())}")
   }
+  println("JavaのList.forEach(voidを返すLambda式)")
 
 }
