@@ -20,7 +20,6 @@ fun main(args: Array<String>) {
   println(app.greeting)
   app.args = args
   println("いつまでも愛しています…" + args.joinToString(", ", "[", "]"))
-  println("Kotlin Version: ${KotlinVersion.CURRENT} Java Version: ${System.getProperty("java.version")}")
   val props = System.getProperties()
   for (e in props!!.keys.toList().stream().sorted()) {
     println("$e -> ${System.getProperty(e.toString())}")
@@ -30,4 +29,5 @@ fun main(args: Array<String>) {
   println(keys.sorted())
   val list = listOf(1,3,10,8,20,9)
   println(list.sorted())
+  println("Kotlin Version: ${KotlinVersion.CURRENT} Java Version: ${System.getProperty("java.version")}")
 }

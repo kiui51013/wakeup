@@ -6,44 +6,58 @@
  */
 
 plugins {
-    // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
-    kotlin("jvm") version "1.9.10"
-
-    // Apply the application plugin to add support for building a CLI application in Java.
-    application
+  // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
+  kotlin("jvm") version "1.9.20"
+  // Apply the application plugin to add support for building a CLI application in Java.
+  application
 }
 
 repositories {
-    // Use Maven Central for resolving dependencies.
-    mavenCentral()
+  // Use Maven Central for resolving dependencies.
+  mavenCentral()
 }
 
 dependencies {
-    // Use the Kotlin JUnit 5 integration.
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
+  // Use the Kotlin JUnit 5 integration.
+  testImplementation(kotlin("test"))
 
-    // Use the JUnit 5 integration.
-    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.9.3")
+  /*
+      testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+      // Use the JUnit 5 integration.
+      testImplementation("org.junit.jupiter:junit-jupiter-engine:5.9.3")
 
-    // This dependency is used by the application.
-    implementation("com.google.guava:guava:32.1.1-jre")
+      testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+      // This dependency is used by the application.
+      implementation("com.google.guava:guava:32.1.1-jre")
+  */
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
+kotlin {
+  jvmToolchain(17)
+}
+/*
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
     }
 }
+*/
 
 application {
-    // Define the main class for the application.
-    mainClass = "com.abacus4.wakeup.AppKt"
+  // Define the main class for the application.
+  mainClass = "com.abacus4.wakeup.AppKt"
 }
 
+tasks.test {
+  useJUnitPlatform()
+}
+
+/*
 tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+*/
