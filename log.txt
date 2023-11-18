@@ -66,3 +66,5 @@ toyo8603 not available ....... 11/16 2023
 -----------------------------------------
 変更されないが！
 
+$ git log TagOne
+$ git show TagOne:FILE

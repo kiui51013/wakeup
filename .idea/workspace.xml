@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c84760c7-19c2-4d48-a384-025c72458205" name="Changes" comment="sort to List&lt;Any!&gt; and List&lt;String&gt;&#10;System.getProperties().keys はなぜかList&lt;Any!&gt;を返すので注意。">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c84760c7-19c2-4d48-a384-025c72458205" name="Changes" comment=".gitignoreをPluginを使って作成">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/abacus4/wakeup/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/com/abacus4/wakeup/AppKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
@@ -129,7 +130,31 @@
       <option name="project" value="LOCAL" />
       <updated>1700195276269</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sort to List&lt;Any!&gt; and List&lt;String&gt;&#10;System.getProperties().keys はなぜかList&lt;Any!&gt;を返すので注意。">
+      <option name="closed" value="true" />
+      <created>1700195395833</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700195395833</updated>
+    </task>
+    <task id="LOCAL-00006" summary="sort to List&lt;Any!&gt; and List&lt;String&gt;&#10;System.getProperties().keys はなぜかList&lt;Any!&gt;を返すので注意。">
+      <option name="closed" value="true" />
+      <created>1700195452569</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700195452569</updated>
+    </task>
+    <task id="LOCAL-00007" summary=".gitignoreをPluginを使って作成">
+      <option name="closed" value="true" />
+      <created>1700200926497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700200926497</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +162,7 @@
     <MESSAGE value="log.txt .. 1 line appended!" />
     <MESSAGE value="AppKtにprintln(...)" />
     <MESSAGE value="sort to List&lt;Any!&gt; and List&lt;String&gt;&#10;System.getProperties().keys はなぜかList&lt;Any!&gt;を返すので注意。" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort to List&lt;Any!&gt; and List&lt;String&gt;&#10;System.getProperties().keys はなぜかList&lt;Any!&gt;を返すので注意。" />
+    <MESSAGE value=".gitignoreをPluginを使って作成" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignoreをPluginを使って作成" />
   </component>
 </project>
