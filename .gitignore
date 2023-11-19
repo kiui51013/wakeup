@@ -72,3 +72,4 @@ build/
 tmp/
 .idea/
 .vscode/
+META-INF/
